@@ -1,0 +1,25 @@
+{
+  "name": "webpack-php-setup",
+  "version": "1.0.0",
+  "description": "Webpack + Core PHP setup with live reloading PHP",
+  "main": "index.js",
+  "scripts": {
+    "start": "rmdir /s /q dist & xcopy includes dist\\includes /I && webpack serve",
+    "dev": "rmdir /s /q dist & xcopy includes dist\\includes /I && webpack --mode=development",
+    "prod": "rmdir /s /q dist & xcopy includes dist\\includes /I && webpack --mode=production"
+  },
+  "author": "Mumtaz Ahmed Siddiqui",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.4",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0"
+  }
+}
