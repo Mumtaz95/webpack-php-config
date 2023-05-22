@@ -2,7 +2,7 @@
 
 This config/boiler plate code provides a development evironment that allows you to work with core php and webpack with LIVE reloading and SASS support
 
-# XAMPP Server must be running prior starting 
+# XAMPP Server must be running prior starting webpack development server
 
 # COMMANDS
 
