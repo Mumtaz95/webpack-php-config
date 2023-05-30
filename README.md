@@ -13,7 +13,7 @@ This config/boiler plate code provides a development evironment that allows you 
 //Start webpack developement server
 
 # npm run dev 
-//Generate production level build
+//Generate developemnt level build
 
 # npm run prod 
 //Generate production level build
